@@ -4,15 +4,107 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="maiko-shimizu 自己紹介＆GitHub紹介ページ">
+    <title>清水　麻衣子</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <style>
+      body {
+        font-family: "メイリオ";
+      }
+      
+      h1 {
+        color: #6495ed;
+      }
+      
+      header {
+        text-align: center;
+      }
+      
+      #sora {
+        width: 100%
+      }
+      
+      #logo img {
+        max-width: 50px;
+      }
+      
+      footer {
+        padding: 20px 0;
+        font-size: 93%;
+        text-align: center;
+        background-color: #b0c4de;
+        color: #fff;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <img src="sora.jpg" id="sora">
+    </header>
+    <div class="container">
+      <section>
+        <h1 id="logo"><img src="simasima.gif">
+        Maiko-Shimizu<img src="simasima.gif"></h1>
+  
+        <div class="panel panel-info">
+        	<div class="panel-heading">
+        		Profile
+        	</div>
+        	
+        	<div class="table-responsive">
+          	<table class="table">
+          		<tbody>
+          			<tr>
+          				<th>名前</th>
+          				<td>清水　麻衣子</td>
+          			</tr>
+          			<tr>
+          				<th>性格</th>
+          				<td>マイペース</td>
+          			</tr>
+          			<tr>
+          				<th>趣味</th>
+          				<td>旅行</td>
+          			</tr>
+          			<tr>
+          				<th>好きなもの</th>
+          				<td>ねこ・お菓子・お風呂</td>
+          			</tr>
+          			<tr>
+          				<th>仕事</th>
+          				<td>設計事務
+          				  <br>図面管理・書類管理・勤怠・出図補助・書類作成・構成表入力 etc...</td>
+          			</tr>
+          		</tbody>
+          	</table>
+          </div>
+        </div>
+      </section>
+      
+      <div class="panel panel-info">
+      	<div class="panel-heading">
+      		GitHub Pages
+      	</div>
+      	<div class="panel-body">
+      	  ★下記のアプリケーションを公開しています。ぜひみにきてくださいませ★
+      	  <ul>
+      	    <li>メッセージボード</li>
+      	    <li>Twitterクローン</li>
+      	    <li>モノリスト</li>
+      	  </ul>
+      		<a href="https://github.com/maiko-shimizu" target="_blank">https://github.com/maiko-shimizu</a>
+      	</div>
+      </div>
+      
+      <footer>
+        <p>&copy; 2016 Maiko Shimizu.</p>
+      </footer>
+    </div>
   </body>
 </html>
